@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+	<html>
+	<head>
+   <link rel = "stylesheet" href="Recipe.css">
+
+ 
+    <title>Recipe Form</title>
+	</head>
+	<body>
+		<body onload="startClock()">
+
+  <div id="topBar">
+    <div id="clock">Loading time...</div>
+    <button onclick="toggleDarkMode()">
+      <span class="icon" id="modeIcon">🌞</span>
+      Toggle Dark Mode
+    </button>
+  </div>
+		<body style = "background-color:lightcyan;">
+		<h1>My Recipe Book</h1>
+		<h2>Table of Context</h2>	
+		<h3><strong>Vegan</strong></h3>
+		<p><u>Vegan Green Curry</u></p>
+		<img src="https://bing.com/th?id=OSK.4556d7f547fd5d7f3d5d88b1a42de8c3" alt="Vegan Green Curry" width="209" height ="202">
+		<h4><strong>Glutten Free</strong></h4>
+		<p><u>Parmesian Pizza</u></p>
+		<img src ="https://www.resch-frisch.com/fileadmin/_processed_/d/f/csm_Glutenfreie_SNACKS_GL_Megastore_Webshop_Aktion-Cards_310x420px_0822_3136c551cb.jpg" alt ="parmesian pizza" width="209" height="202">
+		<h4><strong>All Eaters</strong></h4>
+		<p><u>Beef Lasagna</u></p>
+		<img src ="https://www.slimmingeats.com/blog/wp-content/uploads/2010/03/beef-lasagne-23.jpg" alt="Beef Lasagna" width="209" height="202">
+
+        <form>
+			<label for = "name"> Customer Name:<label><br>
+			<input type = "text" id="name" name ="name"><br>
+			<label for = "address"> Customer Address: <label><br>
+			<input type = "text" id= "address" name ="address"><br>	
+			<label for = "name"> Recipe Name:<label><br>
+			<input type = "text" id= "name" name = "name"><br> 
+			<label for = "category"> Category:<label><br>
+			<select id="category" name= "category">
+				<option value = "vegan">Vegan</option>
+				<option value = "gluten free">Gluten Free</option>
+				<option value = "All Eaters">All Eaters</option>
+			</select>
+		</form>
+		
+
+		<li><a href="file:///C:/Users/Admin/OneDrive/Documentos/RecipeContact.html",target="_self">Contact Info</a></li>
+		<li><a href="file:///C:/Users/Admin/OneDrive/Documentos/RecipeHome.html",target="_self">Home Page</a></li>
+		<button type="button" onclick="alert('Welcome!')">Submit!</button>
+	</label>
+	<script src="Recipe.js"></script>
+	
+</body>
